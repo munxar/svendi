@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
+    "start": "sirv public -s",
     "validate": "svelte-check"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "svelte": "^3.0.0",
     "svelte-check": "^1.0.0",
     "svelte-preprocess": "^4.0.0",
-    "svelte-windicss-preprocess": "^2.1.7",
+    "svelte-windicss-preprocess": "^2.1.9",
     "tslib": "^2.0.0",
     "typescript": "^4.0.0"
   },
